@@ -1,0 +1,27 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.x2cell input, .x3cell input {
+	width: 70px;
+	height: 70px;
+	font-size: 25px;
+}
+
+.x2cellr input, .x3cellr input{
+	width: 70px;
+	height: 70px;
+	font-size: 25px;
+}
+
+.x2cellbtn input, .x3cellbtn input{
+	margin: auto;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+
+
+  }

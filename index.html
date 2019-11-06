@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Det</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script type="text/javascript" src="main.js"></script>
+  <script src="math.js" type="text/javascript"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  
+</head>
+<body>
+  <div class="flex">
+<div class="matrix2x2 card">
+  <div class="card-body">
+  <h1>Matriz de ordem 2</h1>
+  <table class="x2">
+    <form>
+    <tr>
+      <th  class="x2cell"><input id="112" type="number" name=""></th>
+      <th  class="x2cell"><input id="122" type="number" name=""></th>
+      <th class="x2cell" rowspan="2"><h2>=</h2></th>
+      <th class="x2cellr" rowspan="2"><input class="" disabled="true" id="result2" type="number" name=""></th>
+    </tr>
+    <tr>
+      <td  class="x2cell"><input id="212" type="number" name=""></td>
+      <td  class="x2cell"><input id="222" type="number" name=""></td>
+    </tr>
+    <tr >
+      <td colspan="2" class="x2cellBtn"><input type="button" class="btn btn-primary btn-lg active" name="" value="Calcular" onclick="matrix2()"></td>
+    </tr>
+    <tr >
+      <td colspan="2" class="x2cellBtn"><input type="reset" class="btn btn-secondary btn-lg active" name="" value="Limpar"></td>
+    </tr>
+  </form>
+  </table>
+  </div>
+</div>
+
+<div class="matrix3x3 card">
+  <div class="card-body">
+  <h1>Matriz de ordem 3</h1>
+<table class="x3">
+  <form>
+  <tr>
+    <th class="x3cell"><input id="11" type="number" name=""></th>
+    <th class="x3cell"><input id="12" type="number" name=""></th>
+    <th class="x3cell"><input id="13" type="number" name=""></th>
+    <th class="x3cell" rowspan="3"><h2>=</h2></th>
+    <th class="x3cellr" rowspan="3"><input disabled="true" id="result3" type="number" name=""></th>
+  </tr>
+  <tr>
+    <td class="x3cell"><input id="21" type="number" name=""></td>
+    <td class="x3cell"><input id="22" type="number" name=""></td>
+    <td class="x3cell"><input id="23" type="number" name=""></td>
+  </tr>
+  <tr>
+    <td class="x3cell"><input id="31" type="number" name=""></td>
+    <td class="x3cell"><input id="32" type="number" name=""></td>
+    <td class="x3cell"><input id="33" type="number" name=""></td>
+  </tr>
+  <tr >
+      <td colspan="3" class="x2cellBtn"><input type="button" class="btn btn-primary btn-lg active" name="" value="Calcular" onclick="matrix3()" ></td>
+    </tr>
+    <tr >
+      <td colspan="3" class="x2cellBtn"><input type="reset" class="btn btn-secondary btn-lg active" name="" value="Limpar"></td>
+    </tr>
+  </form>
+</table>
+</div>
+</div>
+</div>
+</body>
+</html>
