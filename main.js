@@ -45,9 +45,32 @@ function matrix3(){
 
 
 
-
-
-
-
-
-
+// <script type="text/javascript">        
+//  
+// var arr = [ [ 6, 1, 1 ], [ 4, -2, 5 ], [ 2, 8, 7 ] ]
+//   
+// /* 
+//  *       a b c
+//  * arr = d e f
+//  *       g h i
+//  * 
+//  * determinant = a*(e*i - f*h) - b*(d*i-f*g) + c*(d*h - e*g)
+//  * 
+//  */
+//   
+// var determinant = arr[0][0] * (arr[1][1]*arr[2][2] - arr[1][2]*arr[2][1]) -
+//                   arr[0][1] * (arr[1][0]*arr[2][2] - arr[1][2]*arr[2][0]) +
+//                   arr[0][2] * (arr[1][0]*arr[2][1] - arr[1][1]*arr[2][0]);
+//   
+//  
+// document.write(determinant);
+//             
+//  
+// /*
+// run:
+//    
+// -306 
+//      
+// */
+//  
+// </script>
