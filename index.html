@@ -11,6 +11,9 @@
   
 </head>
 <body>
+  <header>
+    <h1>Determinante</h1>
+  </header>
   <div class="flex">
 <div class="matrix2x2 card">
   <div class="card-body">
@@ -21,18 +24,15 @@
       <th  class="x2cell"><input id="112" type="number" name=""></th>
       <th  class="x2cell"><input id="122" type="number" name=""></th>
       <th class="x2cell" rowspan="2"><h2>=</h2></th>
-      <th class="x2cellr" rowspan="2"><input class="" disabled="true" id="result2" type="number" name=""></th>
+      <th class="x2cellr" rowspan="2"><input class="" readonly id="result2" type="number" name=""></th>
     </tr>
     <tr>
       <td  class="x2cell"><input id="212" type="number" name=""></td>
       <td  class="x2cell"><input id="222" type="number" name=""></td>
     </tr>
-    <tr >
-      <td colspan="2" class="x2cellBtn"><input type="button" class="btn btn-primary btn-lg active" name="" value="Calcular" onclick="matrix2()"></td>
-    </tr>
-    <tr >
-      <td colspan="2" class="x2cellBtn"><input type="reset" class="btn btn-secondary btn-lg active" name="" value="Limpar"></td>
-    </tr>
+   
+    <td colspan="2" class="x2cellBtn"><input type="button" class="btn btn-primary btn-lg active" name="" value="Calcular" onclick="matrix2()"></td>
+    <td colspan="2" class="x2cellBtn"><input type="reset" class="btn btn-secondary btn-lg active" name="" value="Limpar"></td>
   </form>
   </table>
   </div>
@@ -48,7 +48,7 @@
     <th class="x3cell"><input id="12" type="number" name=""></th>
     <th class="x3cell"><input id="13" type="number" name=""></th>
     <th class="x3cell" rowspan="3"><h2>=</h2></th>
-    <th class="x3cellr" rowspan="3"><input disabled="true" id="result3" type="number" name=""></th>
+    <th class="x3cellr" rowspan="3"><input readonly id="result3" type="number" name=""></th>
   </tr>
   <tr>
     <td class="x3cell"><input id="21" type="number" name=""></td>
@@ -60,16 +60,14 @@
     <td class="x3cell"><input id="32" type="number" name=""></td>
     <td class="x3cell"><input id="33" type="number" name=""></td>
   </tr>
-  <tr >
-      <td colspan="3" class="x2cellBtn"><input type="button" class="btn btn-primary btn-lg active" name="" value="Calcular" onclick="matrix3()" ></td>
-    </tr>
-    <tr >
-      <td colspan="3" class="x2cellBtn"><input type="reset" class="btn btn-secondary btn-lg active" name="" value="Limpar"></td>
-    </tr>
+
+    <td colspan="3" class="x2cellBtn"><input type="button" class="btn btn-primary btn-lg active" name="" value="Calcular" onclick="matrix3()" ></td>
+    <td colspan="3" class="x2cellBtn"><input type="reset" class="btn btn-secondary btn-lg active" name="" value="Limpar"></td>
   </form>
 </table>
 </div>
 </div>
 </div>
+
 </body>
 </html>
