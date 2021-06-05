@@ -1,0 +1,317 @@
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header{
+    background-color: #374a67;
+    background-image: url("images/coverv2.png");
+    color: #F7996E;
+    text-align: center;
+}
+
+.flex{
+    display: flex;
+}
+
+.content{
+    margin: auto;
+}
+
+.divider{
+    border-top: 1px solid #F7996E!important;
+}
+
+
+.background{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(35deg, #C4C4C4 50%, #1B9AAA 50%);
+}
+
+
+.first-project{
+    height: 100vh !important;
+    width: 100vw;
+    background-image: url("images/biblioteca-background.png");
+    color: white;
+    display: flex;
+    background-size: cover;
+}
+
+.first-project-border{
+    height: 798px;
+    margin: auto;
+}
+
+.first-project-content{
+    height: 798px;
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.first-project-image{
+    display: flex;
+    height: 798px;
+    border-right: 5px solid #F7996E;
+    width: 250px;
+}
+
+.first-project-image img{
+    height: 705px;
+    width: 245px;
+    object-fit: cover;
+    object-position: left;
+    margin: auto;
+}
+
+.first-project-info{
+    width: 356px;
+    height: 705px;
+    margin-top: 46.5px;
+    text-align: justify;
+    display: flex;
+    background-color: #374a67;
+}
+
+.first-project-text{
+    margin: auto;
+    padding: 30px;
+    line-height: 1.5;
+}
+
+.first-project-text a{
+    float: right;
+    color: white;
+}
+
+.first-project-text a:link{
+
+}
+
+.first-project-text a:visited{
+    color: white;
+}
+
+.first-project-text a:hover{
+    color: #F7996E;
+}
+
+.first-project-text a:active{
+    color: #F7996E;
+}
+
+.first-project-text p{
+    margin: 30px 0 0 0;
+}
+
+.contato{
+    background-color: #0E1116;
+    color: white;
+}
+.contato h1{
+    text-align: center;
+}
+
+.contato h1{
+    margin: auto;
+}
+
+.contato-content{
+    margin: auto;
+}
+
+.telefone{
+    width: 565px;
+    border-bottom: 1px solid #ffffff;
+    margin: auto;
+    text-align: center;
+    font-size: 25px;
+}
+.email{
+    width: 668px;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 30px;
+    border-bottom: 1px solid #ffffff;
+}
+
+.email p, .telefone p {
+    margin: 0;
+}
+
+.socials{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 40px;
+    text-decoration: none;
+    color: white;
+}
+
+
+.socials a{
+    color: white;
+    text-decoration: none;
+}
+
+/* 
+.header{
+    background-color: #374a67;
+    color: #F7996E;
+}
+
+.content{
+    width: 430px;
+    position: relative;
+    z-index: 10;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+
+.header img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 2;
+    opacity: .1;
+}
+
+.about{
+    height: 100vh;
+    width: 100vw;
+    background-color: #DBDAE3;
+}
+
+.about img{
+    width: 50vw;
+    object-fit: fill;
+}
+
+.background{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(35deg, #C4C4C4 50%, #1B9AAA 50%);
+}
+
+
+
+
+
+.first-project{
+    height: 100vh !important;
+    width: 100vw;
+    background-image: url("images/biblioteca-background.png");
+    color: white;
+    display: flex;
+    background-size: cover;
+}
+
+.first-project-border{
+    height: 798px;
+    margin: auto;
+}
+
+.first-project-content{
+    height: 798px;
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.first-project-image{
+    display: flex;
+    height: 798px;
+    border-right: 5px solid #F7996E;
+    width: 250px;
+}
+
+.first-project-image img{
+    height: 705px;
+    width: 245px;
+    object-fit: cover;
+    object-position: left;
+    margin: auto;
+}
+
+.first-project-info{
+    width: 356px;
+    height: 705px;
+    margin-top: 46.5px;
+    text-align: justify;
+    display: flex;
+    background-color: #374a67;
+}
+
+.first-project-text{
+    margin: auto;
+    padding: 30px;
+}
+
+.first-project-text p{
+    margin: 30px 0 0 0;
+}
+
+
+
+
+
+
+
+
+.contato{
+    height: 100vh !important;
+    width: 100vw;
+    background-color: #0E1116;
+    color: white;
+    display: flex;
+}
+
+.contato h1{
+    margin: auto;
+}
+
+.contato-content{
+    margin: auto;
+}
+
+.telefone{
+    width: 565px;
+    border-bottom: 1px solid #ffffff;
+    margin: auto;
+    text-align: center;
+    font-size: 25px;
+}
+.email{
+    width: 668px;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 30px;
+    border-bottom: 1px solid #ffffff;
+}
+
+.email p, .telefone p {
+    margin: 0;
+}
+
+.socials{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 40px;
+    text-decoration: none;
+    color: white;
+}
+
+
+.socials a{
+    color: white;
+    text-decoration: none;
+} */
