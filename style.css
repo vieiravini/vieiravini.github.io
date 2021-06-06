@@ -8,6 +8,8 @@
     background-image: url("images/coverv2.png");
     color: #F7996E;
     text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .flex{
@@ -15,20 +17,46 @@
 }
 
 .content{
+    width: 500px;
     margin: auto;
+}
+
+.content h1{
+    letter-spacing: 8px;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.content h4{
+    margin-top: 10px;
+    font-size: 20px;
 }
 
 .divider{
     border-top: 1px solid #F7996E!important;
 }
 
+.section-about{
+    background-image: url("images/about-background.png");
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
 
 .background{
     width: 100vw;
     height: 100vh;
-    background-image: linear-gradient(35deg, #C4C4C4 50%, #1B9AAA 50%);
+    
 }
 
+.content-about{
+    width: 500px;
+    text-align: justify;
+    margin: -15% 0 0 8%;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
 
 .first-project{
     height: 100vh !important;
@@ -156,6 +184,126 @@
     color: white;
     text-decoration: none;
 }
+
+.black{
+    color: black;
+}
+
+
+.second a:link{
+    color: black;
+}
+
+.second a:visited{
+    color: black;
+}
+
+.second a:hover{
+    color: #F7996E;
+}
+
+.second a:active{
+    color: #F7996E;
+}
+
+.second p{
+    margin: 30px 0 0 0;
+}
+
+.skills{
+    background-color: #1B9AAA;
+}
+
+
+.formacao{
+    display: flex;
+}
+
+.dates {
+    padding: 10px;
+    border-right: solid;
+    text-align: right;
+}
+
+.places{
+    padding: 10px;
+}
+
+.dates p{
+    font-weight: bolder;
+}
+
+.places p{
+    font-weight: bold;
+}
+
+.item{
+    margin: 30px;
+}
+.font-12{
+    margin: 0;
+    font-size: 12px;
+}
+
+.item p{
+    margin: 5px 0 5px 0;
+}
+
+.skills-content{
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+.hab-content{
+    display: flex;
+}
+.line{
+    margin: 24px 10px 24px 50px
+}
+
+.info p{
+    font-weight: bold;
+    font-size: 20px;
+}
+.center{
+    font-size: 40px;
+    text-align: center;
+    margin-top: -100px;
+    margin-bottom: 150px;
+}
+
+.download-cv{
+    text-align: center;
+    background-color: #374a67;
+    width: 200px;
+    margin: auto;
+    padding: 15px;
+    letter-spacing: 5px;
+}
+
+.download-cv a{
+    text-decoration: none;
+}
+
+.download-cv a:link{
+    color: #F7996E;
+}
+
+.download-cv a:visited{
+    color: #F7996E;
+}
+
+.download-cv a:hover{
+    color: black;
+}
+
+.download-cv a:active{
+    color: #F7996E;
+}
+
 
 /* 
 .header{
